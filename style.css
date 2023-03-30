@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left, lightblue,lightgreen);
+    font-family: 'Courier New', Courier, monospace;
+}
+.title{
+    text-align: center;
+    color: darkmagenta;
+    padding-top: 10px;
+}
+.info-text{
+    text-align: center;
+    color: brown;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+.note{
+    padding: 17px;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0 0 3px rgba(0,0,0, .3);
+    font-size: 18px;
+    color: rgb(0, 139, 46);
+    border: none;
+    outline: none;
+    background: rgba(255,255,255, .10);
+    box-sizing: border-box;
+    height: 200px;
+}
+.note:hover,
+.note:focus{
+    box-shadow: 0 0 20px rgba(0,0,0, .5);
+    transition: all 300ms ease;
+}
+.btn{
+    height: 200px;
+    border-color: rgba(255,255,255, .37);
+    background: rgba(255,255,255, .10);
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(0,0,0, .4);
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgba(255,255,255, .55);
+    color: rgba(0,0,0, .7);
+    transition: all 259ms ease;
+}
